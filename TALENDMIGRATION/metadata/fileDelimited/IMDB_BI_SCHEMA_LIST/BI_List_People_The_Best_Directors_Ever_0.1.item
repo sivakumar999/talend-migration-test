@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_d5OOIMqrEeyml6NFJo0E5A" name="BI_List_People_The_Best_Directors_Ever" dataPackage="_d5OOIcqrEeyml6NFJo0E5A" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/BI_Schema/BI List - People - The Best Directors Ever!.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_d5OOIcqrEeyml6NFJo0E5A" name="default" dataManager="_d5OOIMqrEeyml6NFJo0E5A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d5OOIsqrEeyml6NFJo0E5A" id="_R1bsIMqrEeyml6NFJo0E5A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d5OOI8qrEeyml6NFJo0E5A" label="Position" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d5OOJMqrEeyml6NFJo0E5A" label="Const" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d5OOJcqrEeyml6NFJo0E5A" label="Name" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

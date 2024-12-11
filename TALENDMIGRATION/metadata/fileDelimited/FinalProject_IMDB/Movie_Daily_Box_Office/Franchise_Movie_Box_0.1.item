@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_FYzvYMX1Eey9dtV7pJaKQQ" name="Franchise_Movie_Box" dataPackage="_FYzvYcX1Eey9dtV7pJaKQQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/data_theNumbers/The Numbers - Franchises - Domestic Box Office.tsv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_FYzvYcX1Eey9dtV7pJaKQQ" name="default" dataManager="_FYzvYMX1Eey9dtV7pJaKQQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_FYzvYsX1Eey9dtV7pJaKQQ" id="_Ax3O4MX0Eey9dtV7pJaKQQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvY8X1Eey9dtV7pJaKQQ" label="Franchise" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvZMX1Eey9dtV7pJaKQQ" label="No_of_Movies" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvZcX1Eey9dtV7pJaKQQ" label="Domestic_Box_Office" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvZsX1Eey9dtV7pJaKQQ" label="Infl_Adj_Dom_Box_Office" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvZ8X1Eey9dtV7pJaKQQ" label="Worldwide_Box_Office" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvaMX1Eey9dtV7pJaKQQ" label="First_Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvacX1Eey9dtV7pJaKQQ" label="Last_Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYzvasX1Eey9dtV7pJaKQQ" label="No_of_Years" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

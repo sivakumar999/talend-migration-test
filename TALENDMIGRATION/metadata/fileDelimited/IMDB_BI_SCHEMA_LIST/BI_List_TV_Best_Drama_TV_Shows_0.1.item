@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SvHX4MqEEeyuZeQSciJeGQ" name="BI_List_TV_Best_Drama_TV_Shows" dataPackage="_SvHX4cqEEeyuZeQSciJeGQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/BI_Schema/bi List - TV - Best Drama TV Shows.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SvHX4cqEEeyuZeQSciJeGQ" name="default" dataManager="_SvHX4MqEEeyuZeQSciJeGQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SvHX4sqEEeyuZeQSciJeGQ" id="_MvibEMqEEeyuZeQSciJeGQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SvHX48qEEeyuZeQSciJeGQ" label="Position" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SvHX5MqEEeyuZeQSciJeGQ" label="Const" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SvHX5cqEEeyuZeQSciJeGQ" label="Title" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

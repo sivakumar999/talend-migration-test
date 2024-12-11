@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ywiXcMYaEey4_u9T2nRU6A" name="frachise_movies_box_office" dataPackage="_ywiXccYaEey4_u9T2nRU6A" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/data_theNumbers/The Numbers - Marvel Cinematic Universe Franchise.tsv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ywiXccYaEey4_u9T2nRU6A" name="default" dataManager="_ywiXcMYaEey4_u9T2nRU6A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ywiXcsYaEey4_u9T2nRU6A" id="_pwFDkMYaEey4_u9T2nRU6A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXc8YaEey4_u9T2nRU6A" label="Release_Date" length="23" talendType="id_Date" pattern="&quot;MMM d,yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXdMYaEey4_u9T2nRU6A" label="Title" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXdcYaEey4_u9T2nRU6A" label="Production_Budget" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXdsYaEey4_u9T2nRU6A" label="Opening_Weekend" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXd8YaEey4_u9T2nRU6A" label="Domestic_Box_Office" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ywiXeMYaEey4_u9T2nRU6A" label="Worldwide_Box_Office" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

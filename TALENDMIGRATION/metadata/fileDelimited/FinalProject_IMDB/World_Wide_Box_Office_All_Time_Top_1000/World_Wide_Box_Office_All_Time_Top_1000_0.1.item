@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Y0lwEMWcEeyQqfIRFs-_nA" name="World_Wide_Box_Office_All_Time_Top_1000" dataPackage="_Y0lwEcWcEeyQqfIRFs-_nA" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/data_Mojo_box_office/World Wide Box Office All Time Top 1000.tsv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Y0lwEcWcEeyQqfIRFs-_nA" name="default" dataManager="_Y0lwEMWcEeyQqfIRFs-_nA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Y0lwEsWcEeyQqfIRFs-_nA" id="_qlsFEMWaEeyQqfIRFs-_nA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwE8WcEeyQqfIRFs-_nA" label="Rank" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwFMWcEeyQqfIRFs-_nA" label="Title" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwFcWcEeyQqfIRFs-_nA" label="WorldwideLifetimeGross" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwFsWcEeyQqfIRFs-_nA" label="DomesticLifetimeGross" length="-1" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwF8WcEeyQqfIRFs-_nA" label="Domestic" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwGMWcEeyQqfIRFs-_nA" label="ForeignLifetimeGross" length="-1" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwGcWcEeyQqfIRFs-_nA" label="Foreign" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Y0lwGsWcEeyQqfIRFs-_nA" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

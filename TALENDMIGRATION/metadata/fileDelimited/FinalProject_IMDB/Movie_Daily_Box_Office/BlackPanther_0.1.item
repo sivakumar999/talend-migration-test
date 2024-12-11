@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_JLa0QMXHEeyLe5QNRbap6g" name="BlackPanther" dataPackage="_JLa0QcXHEeyLe5QNRbap6g" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/data_theNumbers/The Numbers - Domestic Box Office - Black Panther (2018).tsv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_JLa0QcXHEeyLe5QNRbap6g" name="default" dataManager="_JLa0QMXHEeyLe5QNRbap6g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JLa0QsXHEeyLe5QNRbap6g" id="_pDfrAMXFEeyLe5QNRbap6g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0Q8XHEeyLe5QNRbap6g" label="tconst" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0RMXHEeyLe5QNRbap6g" label="title" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0RcXHEeyLe5QNRbap6g" label="Date" length="23" talendType="id_Date" pattern="&quot;MMM d,yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0RsXHEeyLe5QNRbap6g" label="Rank" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0R8XHEeyLe5QNRbap6g" label="Gross" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0SMXHEeyLe5QNRbap6g" label="YD" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0ScXHEeyLe5QNRbap6g" label="LW" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0SsXHEeyLe5QNRbap6g" label="Theaters" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0S8XHEeyLe5QNRbap6g" label="Per_Theater" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0TMXHEeyLe5QNRbap6g" label="Total_Gross" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JLa0TcXHEeyLe5QNRbap6g" label="Days" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

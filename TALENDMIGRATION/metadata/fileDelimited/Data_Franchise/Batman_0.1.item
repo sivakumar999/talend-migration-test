@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_0ItYAcXdEeyQ0pcgs8bPZQ" name="Batman" id="_0ItYAMXdEeyQ0pcgs8bPZQ" dataPackage="_0ItYAsXdEeyQ0pcgs8bPZQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/shrey/Desktop/DDABI Assigments/PROJECT/data_Franchises/IMDb BoxOfficeMojo - Franchise_ Batman.tsv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_0ItYAsXdEeyQ0pcgs8bPZQ" name="default" dataManager="_0ItYAcXdEeyQ0pcgs8bPZQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0ItYA8XdEeyQ0pcgs8bPZQ" id="_p6iT0MXdEeyQ0pcgs8bPZQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYBMXdEeyQ0pcgs8bPZQ" label="Release_Rank" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYBcXdEeyQ0pcgs8bPZQ" label="Release_Name" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYBsXdEeyQ0pcgs8bPZQ" label="Lifetime_Gross" length="111" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYB8XdEeyQ0pcgs8bPZQ" label="Max_Theaters" length="111" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYCMXdEeyQ0pcgs8bPZQ" label="Opening_Gross" length="111" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYCcXdEeyQ0pcgs8bPZQ" label="Open_Theaters" length="111" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYCsXdEeyQ0pcgs8bPZQ" label="Release_Date" length="111" talendType="id_String" pattern="&quot;MM-dd-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYC8XdEeyQ0pcgs8bPZQ" label="Distributor" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0ItYDMXdEeyQ0pcgs8bPZQ" label="Franchise" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
